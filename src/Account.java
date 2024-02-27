@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Date;
 public class Account {
-    private int id;
-    private double balance;
-    private static double annualInterestRate;
-    private Date dateCreated;
-    private ArrayList<Transactions> transactions = new ArrayList<>();
+    protected int id;
+    protected double balance;
+    protected static double annualInterestRate;
+    protected Date dateCreated;
+    protected ArrayList<Transactions> transactions = new ArrayList<>();
     protected String name;
 
     public Account() {

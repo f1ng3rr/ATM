@@ -1,10 +1,10 @@
 import java.util.Date;
 public class Transactions {
-    private Date dateTrans;
-    private char type;
-    private double amount;
-    private double balance;
-    private String description;
+    protected Date dateTrans;
+    protected char type;
+    protected double amount;
+    protected double balance;
+    protected String description;
 
     public Transactions(char type, double amount, double balance, String description){
         this.type = type;
